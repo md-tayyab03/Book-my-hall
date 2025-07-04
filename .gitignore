@@ -8,6 +8,9 @@
 .pnp.js
 .env
 
+# Firebase credentials
+server/firebase-adminsdk.json.json
+
 # testing
 /coverage
 
