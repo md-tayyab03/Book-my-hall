@@ -1,0 +1,21 @@
+{
+  "name": "book-my-hall",
+  "version": "1.0.0",
+  "description": "Hall booking application",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "install-server": "cd server && npm install",
+    "build": "cd server && npm install"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/md-tayyab03/Book-my-hall.git"
+  },
+  "keywords": ["hall-booking", "react", "nodejs", "mongodb"],
+  "author": "",
+  "license": "ISC"
+} 
