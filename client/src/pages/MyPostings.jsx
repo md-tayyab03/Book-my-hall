@@ -41,10 +41,10 @@ export default function MyPostings() {
     if (file) {
       const formData = new FormData();
       formData.append("file", file);
-      formData.append("upload_preset", "your-upload-preset"); // Use your actual preset
+      formData.append("upload_preset", "unsigned_preset"); // Use your actual preset
 
       const res = await fetch(
-        "https://api.cloudinary.com/v1_1/your-cloud-name/image/upload", // Use your actual cloud name
+        "https://api.cloudinary.com/v1_1/dilfjz7tv/image/upload", // Use your actual cloud name
         {
           method: "POST",
           body: formData,
